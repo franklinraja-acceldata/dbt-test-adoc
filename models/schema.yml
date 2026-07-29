@@ -1,8 +1,8 @@
 version: 2
 
 models:
-  - name: customers
+  - name: my_first_dbt_model
     description: "{{ doc('customer_description') }}"
 
-  - name: orders
+  - name: my_second_dbt_model
     description: "{{ doc('orders_description') }}"
