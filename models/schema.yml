@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: customers
+    description: "{{ doc('customer_description') }}"
+
+  - name: orders
+    description: "{{ doc('orders_description') }}"
